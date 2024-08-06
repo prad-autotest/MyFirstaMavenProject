@@ -6,7 +6,7 @@
     </listeners>
     <test verbose="2" preserve-order="true" name="C:/Users/testi/selenium-project/test">
         <classes>
-            <class name="tests.ListenersTest"/>
+            <class name="tests.DockerTests"/>
         </classes>
     </test>
 </suite>

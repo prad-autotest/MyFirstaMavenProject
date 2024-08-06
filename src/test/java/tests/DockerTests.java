@@ -21,7 +21,7 @@ public class DockerTests {
         DesiredCapabilities capabilities = new DesiredCapabilities();
         capabilities.setBrowserName("chrome");
 
-        WebDriver driver = new RemoteWebDriver(new URL("http://3.86.255.205:4444/"),capabilities);
+        WebDriver driver = new RemoteWebDriver(new URL("http://16.171.1.55:4444/"),capabilities);
 
 
         driver.manage().window().maximize();
